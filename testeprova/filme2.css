@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #f4f4f4;
+   
+   
+
+}
+
+  header {
+    width: 100vw;
+    background: black;
+    padding: 1vw;
+    padding-top: 5px;
+
+    & .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+
+    & .textodapagina {
+        width: 20vw;
+    }
+
+    & .links {
+        width: 30vw;
+    }
+
+    & .links a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5vw;
+        margin: 1vw;
+    }
+
+
+
+    #filme {
+        background-color: red;
+        padding: 20px;
+        border-radius: 10px;
+    }
+}
+
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.container1 {
+    margin-top: 20px;
+}
+
+.sinopse-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+}
+
+.divbanner {
+   display: flex;
+}
+
+.divbanner img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.containertexto {
+    flex: 2;
+    font-size: 18px;
+}
+
+.containertexto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    background: #444;
+    border-radius: 8px;
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+#trailer iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.curiosidades-list {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+.curiosidades-list li {
+    margin-bottom: 8px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #f4f4f4;
+}
+
+.curiosidades-list li::marker {
+    color: red; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form textarea {
+    width: 80%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #cc0000;
+}
+
+footer {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+    margin-top: 20px;
+}
